@@ -1,2 +1,3 @@
 # BEAKJOON
-Studying Algorithm
+Studying_Algorithm
+Let's Go GOLD
