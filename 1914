@@ -1,0 +1,16 @@
+tot=int(input())
+temp =0
+
+print((2**tot)-1)
+
+def move(no:int, i:int, k:int):
+    if no>1:
+        move(no-1, i, 6-i-k)
+    
+    print(i, k)
+
+    if no>1:
+        move(no-1,6-i-k,k)
+
+if tot<=20:
+    move(tot, 1, 3)
